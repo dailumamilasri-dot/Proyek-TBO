@@ -5,7 +5,7 @@ import streamlit as st
 # ============================================================
 st.set_page_config(
     page_title="Hotel Booking DFA",
-    page_icon="🏨",
+    page_icon="",
     layout="wide"
 )
 
@@ -151,7 +151,7 @@ def process(user_input: str) -> str:
 # ============================================================
 # UI - LAYOUT DUA KOLOM (chat | panel DFA)
 # ============================================================
-st.title("🏨 Hotel Booking Chatbot")
+st.title("Hotel Booking Chatbot")
 
 col_chat, col_panel = st.columns([3, 1])
 
